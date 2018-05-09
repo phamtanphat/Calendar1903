@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ptp.phamtanphat.calendar1903.MainActivity">
+
+    <TextView
+        android:id="@+id/textviewtitle"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textColor="#f20"
+        android:textSize="30sp"
+        android:text="Dem khoang cach ngay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Chon ngay bat dau"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/textviewtitle"
+        android:id="@+id/edittextMin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Chon ngay ket thuc"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/edittextMin"
+        android:id="@+id/edittextMax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textviewketqua"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#f20"
+        android:text=" 1 ngay"
+        android:textSize="40sp"
+        android:layout_below="@id/edittextMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/buttontinhtoan"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="Tinh toan"
+        android:layout_below="@id/textviewketqua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
